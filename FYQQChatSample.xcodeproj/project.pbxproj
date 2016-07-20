@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF1F02471D2675A60012570E /* PPTencentQQChatAPICall.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F02461D2675A60012570E /* PPTencentQQChatAPICall.m */; };
 		DFEE18A01D2523F7003172A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEE189F1D2523F7003172A6 /* main.m */; };
 		DFEE18A31D2523F7003172A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEE18A21D2523F7003172A6 /* AppDelegate.m */; };
 		DFEE18A61D2523F7003172A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEE18A51D2523F7003172A6 /* ViewController.m */; };
 		DFEE18A91D2523F7003172A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFEE18A71D2523F7003172A6 /* Main.storyboard */; };
 		DFEE18AB1D2523F7003172A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFEE18AA1D2523F7003172A6 /* Assets.xcassets */; };
 		DFEE18AE1D2523F7003172A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFEE18AC1D2523F7003172A6 /* LaunchScreen.storyboard */; };
+		DFEE18BF1D25295D003172A6 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEE18BE1D25295D003172A6 /* TencentOpenAPI.framework */; };
+		DFEE18C11D2529B7003172A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEE18C01D2529B7003172A6 /* QuartzCore.framework */; };
+		DFEE18C31D2529C3003172A6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEE18C21D2529C3003172A6 /* MobileCoreServices.framework */; };
+		DFEE18C51D2529D5003172A6 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEE18C41D2529D5003172A6 /* libz.1.1.3.tbd */; };
+		DFEE18C71D2529E3003172A6 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEE18C61D2529E3003172A6 /* libstdc++.tbd */; };
+		DFEE18C91D2529F2003172A6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEE18C81D2529F2003172A6 /* libsqlite3.tbd */; };
+		DFEE18CB1D2529FB003172A6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEE18CA1D2529FB003172A6 /* CoreFoundation.framework */; };
+		DFEE18CD1D252A05003172A6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEE18CC1D252A05003172A6 /* SystemConfiguration.framework */; };
+		DFEE18CF1D252A0C003172A6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEE18CE1D252A0C003172A6 /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF1F02451D2675A60012570E /* PPTencentQQChatAPICall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTencentQQChatAPICall.h; sourceTree = "<group>"; };
+		DF1F02461D2675A60012570E /* PPTencentQQChatAPICall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTencentQQChatAPICall.m; sourceTree = "<group>"; };
+		DF1F02481D26780B0012570E /* PPTencentQQChatAPICallConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTencentQQChatAPICallConstants.h; sourceTree = "<group>"; };
 		DFEE189B1D2523F7003172A6 /* FYQQChatSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYQQChatSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFEE189F1D2523F7003172A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFEE18A11D2523F7003172A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +39,15 @@
 		DFEE18AA1D2523F7003172A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFEE18AD1D2523F7003172A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFEE18AF1D2523F7003172A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFEE18BE1D25295D003172A6 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		DFEE18C01D2529B7003172A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DFEE18C21D2529C3003172A6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DFEE18C41D2529D5003172A6 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		DFEE18C61D2529E3003172A6 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		DFEE18C81D2529F2003172A6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		DFEE18CA1D2529FB003172A6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		DFEE18CC1D252A05003172A6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DFEE18CE1D252A0C003172A6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +55,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFEE18CF1D252A0C003172A6 /* CoreTelephony.framework in Frameworks */,
+				DFEE18CD1D252A05003172A6 /* SystemConfiguration.framework in Frameworks */,
+				DFEE18CB1D2529FB003172A6 /* CoreFoundation.framework in Frameworks */,
+				DFEE18C91D2529F2003172A6 /* libsqlite3.tbd in Frameworks */,
+				DFEE18C71D2529E3003172A6 /* libstdc++.tbd in Frameworks */,
+				DFEE18C51D2529D5003172A6 /* libz.1.1.3.tbd in Frameworks */,
+				DFEE18C31D2529C3003172A6 /* MobileCoreServices.framework in Frameworks */,
+				DFEE18C11D2529B7003172A6 /* QuartzCore.framework in Frameworks */,
+				DFEE18BF1D25295D003172A6 /* TencentOpenAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +89,7 @@
 		DFEE189D1D2523F7003172A6 /* FYQQChatSample */ = {
 			isa = PBXGroup;
 			children = (
+				DFEE18BB1D252709003172A6 /* SDKCall */,
 				DFEE18A11D2523F7003172A6 /* AppDelegate.h */,
 				DFEE18A21D2523F7003172A6 /* AppDelegate.m */,
 				DFEE18A41D2523F7003172A6 /* ViewController.h */,
@@ -74,9 +106,28 @@
 		DFEE189E1D2523F7003172A6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DFEE18CE1D252A0C003172A6 /* CoreTelephony.framework */,
+				DFEE18CC1D252A05003172A6 /* SystemConfiguration.framework */,
+				DFEE18CA1D2529FB003172A6 /* CoreFoundation.framework */,
+				DFEE18C81D2529F2003172A6 /* libsqlite3.tbd */,
+				DFEE18C61D2529E3003172A6 /* libstdc++.tbd */,
+				DFEE18C41D2529D5003172A6 /* libz.1.1.3.tbd */,
+				DFEE18C21D2529C3003172A6 /* MobileCoreServices.framework */,
+				DFEE18C01D2529B7003172A6 /* QuartzCore.framework */,
+				DFEE18BE1D25295D003172A6 /* TencentOpenAPI.framework */,
 				DFEE189F1D2523F7003172A6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFEE18BB1D252709003172A6 /* SDKCall */ = {
+			isa = PBXGroup;
+			children = (
+				DF1F02451D2675A60012570E /* PPTencentQQChatAPICall.h */,
+				DF1F02461D2675A60012570E /* PPTencentQQChatAPICall.m */,
+				DF1F02481D26780B0012570E /* PPTencentQQChatAPICallConstants.h */,
+			);
+			name = SDKCall;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +203,7 @@
 				DFEE18A61D2523F7003172A6 /* ViewController.m in Sources */,
 				DFEE18A31D2523F7003172A6 /* AppDelegate.m in Sources */,
 				DFEE18A01D2523F7003172A6 /* main.m in Sources */,
+				DF1F02471D2675A60012570E /* PPTencentQQChatAPICall.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +317,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FYQQChatSample",
+					"$(SRCROOT)/FYQQChatSample/framework",
+					"$(SRCROOT)",
+					"$(SRCROOT)/../..",
+				);
 				INFOPLIST_FILE = FYQQChatSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.julysystems.FYQQChatSample;
@@ -276,6 +335,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FYQQChatSample",
+					"$(SRCROOT)/FYQQChatSample/framework",
+					"$(SRCROOT)",
+					"$(SRCROOT)/../..",
+				);
 				INFOPLIST_FILE = FYQQChatSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.julysystems.FYQQChatSample;
@@ -302,6 +368,7 @@
 				DFEE18B41D2523F7003172A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
